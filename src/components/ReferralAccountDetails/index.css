@@ -1,0 +1,90 @@
+.referral-account-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.referral-detail-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 730px;
+}
+
+.detail-item {
+  background-image: linear-gradient(to left, #4776e6, #8e54e9);
+  border-radius: 12px;
+  flex-basis: 22%;
+  margin: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .referral-detail-list {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .detail-item {
+    width: 180px;
+  }
+}
+
+.detail-icon-wrapper {
+  border: solid 1px white;
+  border-radius: 100px;
+  padding: 6px;
+  margin-right: 18px;
+}
+.detail-icon-image {
+  width: 20px;
+}
+.detail-content,
+.detail-value,
+.detail-label {
+  color: white;
+  font-family: Yantramanav;
+  font-size: 16px;
+}
+
+.detail-label {
+  font-size: 12px;
+}
+
+.referral-info-section {
+  margin: auto;
+  border: dotted 2px #888888;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin: 20px 0;
+  width: 730px;
+}
+
+.info-head {
+  color: #49596d;
+}
+
+.info-value {
+  color: #4776e6;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+
+@media(max-width: 768px) {
+    .referral-info-section {
+        flex-direction: column;
+        width: 200px;
+    }
+}
