@@ -2,6 +2,9 @@
 
 A web application for managing and displaying referral information. This project is built using React and Vite, providing a fast and efficient development experience.
 
+### Live Demo
+[Referral Dashboard](https://referral-dashboard-blush.vercel.app/)
+
 ## Table of Contents
 
 * [Features](#features)
